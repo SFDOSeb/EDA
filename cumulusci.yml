@@ -8,7 +8,7 @@ project:
         install_class: STG_InstallScript
     git:
         prefix_release: rel/
-        repo_url: https://github.com/SalesforceFoundation/EDA
+        repo_url: https://github.com/sebastianocostanzo/EDA
         default_branch: main
     source_format: sfdx
     apexdoc:
@@ -19,7 +19,7 @@ project:
 
 sources:
     latest_release:
-        github: https://github.com/SalesforceFoundation/EDA
+        github: https://github.com/sebastianocostanzo/EDA
         release: latest
 
 tasks:
