@@ -19,7 +19,7 @@ project:
 
 sources:
     latest_release:
-        github: https://github.com/sebastianocostanzo/EDA
+        github: https://github.com/SalesforceFoundation/EDA
         release: latest
 
 tasks:
