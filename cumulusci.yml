@@ -20,7 +20,7 @@ project:
 sources:
     latest_release:
         github: https://github.com/sebastianocostanzo/EDA
-        release: latest
+        release: rel/1.113
 
 tasks:
     add_relationship_type_values:
