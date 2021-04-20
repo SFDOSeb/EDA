@@ -63,14 +63,14 @@ tasks:
         class_path: cumulusci.tasks.salesforce.Deploy
         options:
             namespace_inject: $project_config.project__package__namespace
-            path: tree/main/unpackaged/config/dev
+            path: unpackaged/config/dev
 
     delete_dev_config:
         group: "EDA: Dev Config"
         description: Removes Development configuration. Sets page layouts, compact layouts to system defaults. Removes record type visibilites.
         class_path: cumulusci.tasks.salesforce.Deploy
         options:
-            path: tree/main/unpackaged/config/dev_delete
+            path: unpackaged/config/dev_delete
 
     deploy_einstein_templates:
         group: "EDA: Einstein Templates"
